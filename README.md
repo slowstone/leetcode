@@ -9,18 +9,15 @@ int x=[](){
     return 0;
 }();
 ```
+>* *符号表示有leetcode上的代码
 >* leetcode上的代码大多数都是用是最少的代码，或者是算法比较新奇的。  
 
 ## Array  
   
-* 561 Array Partition I
->包括自己编写的代码以及leetcode上的代码
+* 561 Array Partition I*
 
 * 766 Toeplitz Matrix
->包括自己编写的代码
 
-* 566 Reshape the Matrix
->包括自己编写的代码以及leetcode上的代码
+* 566 Reshape the Matrix*
 
-* 485 Max Consecutive Ones
->包括自己编写的代码以及leetcode上的代码
+* 485 Max Consecutive Ones*
