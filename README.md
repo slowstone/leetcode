@@ -6,3 +6,6 @@
 
 * 766 Toeplitz Matrix
 >包括自己编写的代码（1份）
+
+* 566 Reshape the Matrix
+>包括自己编写的代码（1份）
