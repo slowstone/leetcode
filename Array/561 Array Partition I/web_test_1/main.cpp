@@ -2,18 +2,64 @@
 #include <vector>
 #include <sstream>
 #include <algorithm>
+#include <cstring>
 using namespace std;
+
+//加速输入
+int x=[](){
+    std::ios::sync_with_stdio(false);           //解除与C输入输出的兼容，解绑后请不要混用两者
+    cin.tie(NULL);          //暂时不太理解
+    return 0;
+}();
 
 class Solution {
 public:
+    /*
+     * 两种方法都是自己写了一个排序
+     * 主要区别是第二个比第一个少了一个循环
+     * 不过用时差别不大
+     */
+    /*
+     * 方法一
+     * 设置数组自己写了一个排序算法
+     */
     int arrayPairSum(vector<int>& nums) {
-        int res = 0;
-        sort(nums.begin(), nums.end());
-        for(int i=0; i<nums.size(); i+=2){
-            res += nums[i];
+
+        int count[20001];
+        int sum=0;
+        bool odd=true;
+        memset(count,0,sizeof(count));
+        for(int i=0;i<nums.size();i++){
+            count[nums[i]+10000]++;
         }
-        return res;
+        for(int j=0;j<20001;j++){
+            while(count[j]>0){
+                if (odd){
+                    sum+=j-10000;
+                }
+                odd = !odd;
+                count[j]--;
+            }
+        }
+        return sum;
     }
+    /*
+     * 方法二
+     * 利用hash自己写了一个排序
+     */
+    /*
+    int arrayPairSum(vector<int>& nums) {
+        vector<int>Hash(20001);
+        int l = 0;
+        int sum = 0;
+        for (int num : nums)Hash[num + 10000]++;
+        for (int i = 0; i<20001;i++){
+            sum+=(Hash[i]+1-l)/2 *(i-10000);
+            l=(Hash[i]+l)%2;
+        }
+        return sum;
+    }
+    */
 };
 
 void trimLeftTrailingSpaces(string &input) {
