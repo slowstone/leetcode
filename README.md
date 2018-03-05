@@ -21,3 +21,5 @@ int x=[](){
 * 566 Reshape the Matrix*
 
 * 485 Max Consecutive Ones*
+
+* 695 Max Area of Island(not finished)
