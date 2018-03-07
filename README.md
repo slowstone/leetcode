@@ -22,4 +22,4 @@ int x=[](){
 
 * 485 Max Consecutive Ones*
 
-* 695 Max Area of Island(not finished)
+* 695 Max Area of Island* (DFS)
