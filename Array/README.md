@@ -11,3 +11,5 @@
 * 485 Max Consecutive Ones*
 
 * 695 Max Area of Island* (DFS)
+
+* 283. Move Zeroes*
