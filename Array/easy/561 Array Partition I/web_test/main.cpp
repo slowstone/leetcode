@@ -12,7 +12,7 @@ int x=[](){
     return 0;
 }();
 
-class Solution {
+class Solution1 {
 public:
     /*
      * 两种方法都是自己写了一个排序
@@ -43,11 +43,13 @@ public:
         }
         return sum;
     }
+}
+class Solution2 {
+public:
     /*
      * 方法二
      * 利用hash自己写了一个排序
      */
-    /*
     int arrayPairSum(vector<int>& nums) {
         vector<int>Hash(20001);
         int l = 0;
@@ -59,7 +61,6 @@ public:
         }
         return sum;
     }
-    */
 };
 
 void trimLeftTrailingSpaces(string &input) {
@@ -94,7 +95,7 @@ int main() {
     while (getline(cin, line)) {
         vector<int> nums = stringToIntegerVector(line);
 
-        int ret = Solution().arrayPairSum(nums);
+        int ret = Solution1().arrayPairSum(nums);
 
         string out = to_string(ret);
         cout << out << endl;

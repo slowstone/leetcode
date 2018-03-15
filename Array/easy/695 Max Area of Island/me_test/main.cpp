@@ -5,7 +5,38 @@
 #include <sstream>
 using namespace std;
 
-class Solution {
+class Solution1 {
+private:
+    int DFS(vector<vector<int>>& grid,int x,int y,int cur_area){
+        if(x < 0||y < 0||x >= grid.size()||y >= grid[x].size()||grid[x][y]==0){
+            return 0;
+        }
+        //cout << x << " " << y << " " << cur_area <<endl;
+        grid[x][y] = 0;
+        return 1 + DFS(grid,x + 1,y,cur_area)\
+               + DFS(grid,x - 1,y,cur_area)\
+                 + DFS(grid,x,y + 1,cur_area)\
+                   +DFS(grid,x,y - 1,cur_area);
+    }
+public:
+    int maxAreaOfIsland(vector<vector<int>>& grid) {
+        int max_area = 0;
+        int col = grid.size();
+        for(int i = 0;i < col;i++){
+            for(int j =0;j< grid[i].size();j++){
+                if(grid[i][j] != 0){
+                    int cur_area = DFS(grid,i,j,0);
+                    //cout << endl;
+                    max_area = max(cur_area,max_area);
+                }
+            }
+        }
+        return max_area;
+    }
+};
+
+//太过复杂,一直无法ac
+class Solution2 {
 public:
     int maxAreaOfIsland(vector<vector<int>>& grid) {
         int col = grid.size();      //矩阵规模
