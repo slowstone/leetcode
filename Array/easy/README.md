@@ -19,3 +19,5 @@
 * 717 1-bit and 2-bit Characters*
 
 * 122 Best Time to Buy and Sell Stock II*
+
+* 169 Majority Element*(本题有错误)
