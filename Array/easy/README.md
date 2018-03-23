@@ -23,3 +23,5 @@
 * 169 Majority Element*(本题有错误)
 
 * 167 Two Sum II - Input array is sorted*
+
+* 217 Contains Duplicate* (类似快排和类似冒泡)
