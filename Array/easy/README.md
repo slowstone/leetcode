@@ -25,3 +25,5 @@
 * 167 Two Sum II - Input array is sorted*
 
 * 217 Contains Duplicate* (类似快排和类似冒泡)
+
+* 697 Degree of an Array*
