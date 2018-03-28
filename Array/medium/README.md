@@ -4,3 +4,6 @@
   
 * 442 Find All Duplicates in an Array*
 > 58.6%
+
+* 495 Teemo Attacking
+> 51.5%
