@@ -6,4 +6,7 @@
 > 58.6%
 
 * 495 Teemo Attacking
-> 51.5%
+> 51.4%
+
+* 667 Beautiful Arrangement II*(没写出来，参考的网上思路写出来的)
+> 51.4%

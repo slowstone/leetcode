@@ -7,7 +7,33 @@ using namespace std;
 class Solution {
 public:
     vector<int> constructArray(int n, int k) {
-        
+        vector<int> output;
+        output.push_back(1);
+        int num = 0,i = 2,j = n;
+        while(num < k - 1){
+        	if(num % 2 = 0){
+       			output.push_back(j);
+      			j--;
+        	}
+        	else{
+        		output.push_back(i);
+        		i++;
+        	}
+        	num++;
+        }
+        if(num % 2 = 0){
+        	while(i <= j){
+        		output.push_back(i);
+        		i++;
+        	}
+        }
+        else{
+        	while(j >= i){
+        		output.push_back(j);
+        		j--;
+        	}
+        }
+        return output;
     }
 };
 
