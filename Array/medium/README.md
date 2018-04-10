@@ -10,3 +10,6 @@
 
 * 667 Beautiful Arrangement II*(没写出来，参考的网上思路写出来的)
 > 51.4%
+
+* 238 Product of Array Except Self*
+> 50.3%

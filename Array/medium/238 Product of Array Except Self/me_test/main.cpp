@@ -9,9 +9,15 @@ public:
     vector<int> productExceptSelf(vector<int>& nums) {
         vector<int> output(nums);
         for(int i = 1;i < nums.size();i++){
+            int length = nums.size();
             nums[i] = nums[i]*nums[i-1];
-            output[nums.size() - i - 1] = 
+            output[length - i - 1] = output[length - i - 1] * output[length -i -1 +1];
         }
+        output[0] = output[1];
+        for(int i = 1;i < nums.size()-1;i++){
+            output[i] = output[i + 1] * nums[i - 1];
+        }
+        output[nums.size() - 1] = nums[nums.size() - 2]; 
         return output;
     }
 };
