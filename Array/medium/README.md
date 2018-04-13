@@ -14,5 +14,8 @@
 * 238 Product of Array Except Self*
 > 50.3%
 
-* 565 Array Nesting
+* 565 Array Nesting*
 > 49.4%
+
+* 769 Max Chunks To Make Sorted*
+> 47.9%
