@@ -22,3 +22,6 @@
 
 * 216 Combination Sum III*
 > 47.2%
+
+* 714 Best Time to Buy and Sell Stock with Transaction Fee
+> 45.4%
