@@ -8,7 +8,7 @@
 * 495 Teemo Attacking
 > 51.4%
 
-* 667 Beautiful Arrangement II*(没写出来，参考的网上思路写出来的)
+* 667 Beautiful Arrangement II* (没写出来，参考的网上思路写出来的)
 > 51.4%
 
 * 238 Product of Array Except Self*
@@ -19,3 +19,6 @@
 
 * 769 Max Chunks To Make Sorted*
 > 47.9%
+
+* 216 Combination Sum III*
+> 47.2%
