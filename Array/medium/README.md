@@ -31,3 +31,6 @@
 
 * 287 Find the Duplicate Number
 > 44.3%
+
+* 62 Unique Paths
+> 42.9%
