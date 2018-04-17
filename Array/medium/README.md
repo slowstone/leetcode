@@ -28,3 +28,6 @@
 
 * 78 Subsets
 > 44.8%
+
+* 287 Find the Duplicate Number
+> 44.3%
