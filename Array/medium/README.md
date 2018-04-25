@@ -46,3 +46,6 @@
 
 * 59 Spiral Matrix II*
 > 41.1%
+
+* 31 Next Permutation
+> 29.1%
