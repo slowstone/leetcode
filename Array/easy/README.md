@@ -1,4 +1,4 @@
-# Array完成情况  
+# Array/easy完成情况  
 >* *符号表示有leetcode上的代码   
 >* leetcode上的代码大多数都是用是最少的代码，或者是算法比较新奇的。   
   
@@ -29,7 +29,7 @@
 * 122 Best Time to Buy and Sell Stock II*
 > 47.8%
 
-* 169 Majority Element*(本题有错误)
+* 169 Majority Element* (本题有错误)
 > 47.9%
 
 * 167 Two Sum II - Input array is sorted*
