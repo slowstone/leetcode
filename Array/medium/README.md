@@ -49,3 +49,6 @@
 
 * 31 Next Permutation
 > 29.1%
+
+* 209 Minimum Size Subarray Sum
+> 32.6%
