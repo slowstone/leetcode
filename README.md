@@ -112,9 +112,27 @@ int x=[](){
 * 31 Next Permutation
 > 29.1%
 
-* 209 Minimum Size Subarray Sum
+* 209 Minimum Size Subarray Sum* (有难度)
 > 32.6%
+
+* 236 Lowest Common Ancestor of a Binary Tree*
+> 31.3%
+
+* 718 Maximum Length of Repeated Subarray* (dp)
+> 42.2%
+
+* 289 Game of Life
+> 38.9%
+
+* 523 Continuous Subarray Sum* (有难度)
+> 23.4%
+
+* 152 Maximum Product Subarray(未完成)
+> 27.3%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
+
+* 214 Shortest Palindrome(未完成)
+> 25.8%
