@@ -130,6 +130,9 @@ int x=[](){
 * 152 Maximum Product Subarray(未完成)
 > 27.3%
 
+* 16 3Sum Closest(未完成)
+> 32.5%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
