@@ -63,6 +63,12 @@ int x=[](){
 * 771 Jewels and Stones
 > 82.1%
 
+* 290 Word Pattern*
+> 33.9%
+
+* 234 Palindrome Linked List (未完成)
+> 34.2%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
