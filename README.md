@@ -66,8 +66,11 @@ int x=[](){
 * 290 Word Pattern*
 > 33.9%
 
-* 234 Palindrome Linked List (未完成)
+* 234 Palindrome Linked List*
 > 34.2%
+
+* 434 Number of Segments in a String
+> 36.5%
 
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
@@ -139,9 +142,15 @@ int x=[](){
 * 16 3Sum Closest(未完成)
 > 32.5%
 
+* 55 Jump Game* (有难度)
+> 30.2%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
 
 * 214 Shortest Palindrome(未完成)
 > 25.8%
+
+* 45 Jump Game II*
+> 26.3%
