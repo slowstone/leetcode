@@ -12,7 +12,7 @@ int x=[](){
 
 # 完成情况(按难度分类)
 >* *符号表示有leetcode上的代码   
->* leetcode上的代码大多数都是用是最少的代码，或者是算法比较新奇的。   
+>* leetcode上的代码大多数都是用时最少的代码，或者是算法比较新奇的。   
 
 ## easy 完成情况   
 * 561 Array Partition I*
@@ -71,6 +71,9 @@ int x=[](){
 
 * 434 Number of Segments in a String
 > 36.5%
+
+* 198 House Robber
+> 40.4%
 
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
@@ -139,11 +142,20 @@ int x=[](){
 * 152 Maximum Product Subarray(未完成)
 > 27.3%
 
-* 16 3Sum Closest(未完成)
+* 16 3Sum Closest* (没写出来简易算法,利用暴力解写出来的)
 > 32.5%
 
 * 55 Jump Game* (有难度)
 > 30.2%
+
+* 11 Container With Most Water
+> 38.5%
+
+* 18 4Sum*
+> 28.3%
+
+* 213 House Robber II
+> 34.7%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
@@ -154,3 +166,6 @@ int x=[](){
 
 * 45 Jump Game II*
 > 26.3%
+
+* 41 First Missing Positive*
+> 26.7%

@@ -1,106 +1,26 @@
-#include <iostream>
-#include <vector>
-#include <sstream>
-#include <algorithm>
-using namespace std;
-
 class Solution {
 public:
-    int findDuplicate(vector<int>& nums) const {
-        int n = (int)nums.size(), *pb = &nums[0], *p1 = pb, *p2 = pb + (*pb), z = 0;
-        while (*p1 != *p2) { p1 = pb + *p1;  p2 = pb + *(pb + *p2);  }
-        p2 = &z;
-        while (p1 != p2) { p1 = pb + *p1; p2 = pb + *p2;  }
-        return (int)(p1 - pb);
-    };
-};
-
-class Solution {
-public:
-    int findDuplicate(vector<int>& nums)
-    {
-        if (nums.size() > 1)
-        {
-            int slow = nums[0];
-            int fast = nums[nums[0]];
-            while (slow != fast)
-            {
-                slow = nums[slow];
-                fast = nums[nums[fast]];
-            }
-
-            fast = 0;
-            while (fast != slow)
-            {
-                fast = nums[fast];
-                slow = nums[slow];
-            }
-            return slow;
-        }
-        return -1;
-    }
-};
-
-class Solution {
-public:
-    int findDuplicate(vector<int>& nums) {
-        int low = 0;
-        int high = nums.size()-1;
-        while (low < high) {
-            int mid = low + (high-low) / 2;
-            int count = 0;
-            for (auto num : nums) {
-                if (num <= mid) {
-                    count ++;
+    int threeSumClosest(vector<int>& nums, int target) {
+        if(nums.size() < 3) return 0;
+        int closest = nums[0]+nums[1]+nums[2];
+        sort(nums.begin(), nums.end());
+        for(int first = 0 ; first < nums.size()-2 ; ++first) {
+            if(first > 0 && nums[first] == nums[first-1]) continue;
+            int second = first+1;
+            int third = nums.size()-1;            
+            while(second < third) {
+                int curSum = nums[first]+nums[second]+nums[third];
+                if(curSum == target) return curSum;
+                if(abs(target-curSum)<abs(target-closest)) {
+                    closest = curSum;
+                }
+                if(curSum > target) {
+                    --third;
+                } else {
+                    ++second;
                 }
             }
-            if (count > mid) {
-                high = mid;
-            }
-            else {
-                low = mid+1;
-            }
         }
-        return low;
+    return closest;
     }
 };
-
-void trimLeftTrailingSpaces(string &input) {
-    input.erase(input.begin(), find_if(input.begin(), input.end(), [](int ch) {
-        return !isspace(ch);
-    }));
-}
-
-void trimRightTrailingSpaces(string &input) {
-    input.erase(find_if(input.rbegin(), input.rend(), [](int ch) {
-        return !isspace(ch);
-    }).base(), input.end());
-}
-
-vector<int> stringToIntegerVector(string input) {
-    vector<int> output;
-    trimLeftTrailingSpaces(input);
-    trimRightTrailingSpaces(input);
-    input = input.substr(1, input.length() - 2);
-    stringstream ss;
-    ss.str(input);
-    string item;
-    char delim = ',';
-    while (getline(ss, item, delim)) {
-        output.push_back(stoi(item));
-    }
-    return output;
-}
-
-int main() {
-    string line;
-    while (getline(cin, line)) {
-        vector<int> nums = stringToIntegerVector(line);
-        
-        int ret = Solution().findDuplicate(nums);
-
-        string out = to_string(ret);
-        cout << out << endl;
-    }
-    return 0;
-}
