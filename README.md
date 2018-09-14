@@ -139,7 +139,7 @@ int x=[](){
 * 523 Continuous Subarray Sum* (有难度)
 > 23.4%
 
-* 152 Maximum Product Subarray(未完成)
+* 152 Maximum Product Subarray* (也不算有难度,一开始想法太过复杂,没有总结出合适的简洁规律)
 > 27.3%
 
 * 16 3Sum Closest* (没写出来简易算法,利用暴力解写出来的)

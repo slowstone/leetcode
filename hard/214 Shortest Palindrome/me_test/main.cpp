@@ -1,26 +1,31 @@
 class Solution {
 public:
     string shortestPalindrome(string s) {
-        int i = 0;
-        int j = 0;
-        int k = 0;
-        string stmp;
-        while(i < j){
-            if(s[i] != s[j]){
-                if(i == 0){
-                    stmp = stmp+s[j];
-                    j--;
-                }
-                else
-                    i = 0;
-                k = j+1;
+        int left = 0;
+        int right = s.size()-1;
+        int step = 0;
+        while(left < right){
+            if(s[left] == s[right]){
+                left++;
+                right--;
+                step++;
             }
             else{
-                i++;
-                stmp = stmp+s[j];
-                j--;
+                int tmpright = right + step;
+                int tmpstep = 0;
+                for(;tmpstep < step;tmpstep++){
+                    if(s[tmpright] == s[right]){
+                        right--;
+                        tmpright--;
+                    }
+                    else
+                        break;
+                }
+                left -= (step-tmpstep);
+                step = tmpstep;
             }
         }
+        string ss(s,right+step,s.size()-right+step);
         return ss+s;
     }
 };
