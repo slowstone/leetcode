@@ -75,11 +75,14 @@ int x=[](){
 * 198 House Robber
 > 40.4%
 
+* 303 Range Sum Query - Immutable* (没写出来)
+> 34.1%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
 
-* 495 Teemo Attacking
+* 495 Teemo Attacking*
 > 51.4%
 
 * 667 Beautiful Arrangement II* (没写出来，参考的网上思路写出来的)
@@ -100,16 +103,16 @@ int x=[](){
 * 714 Best Time to Buy and Sell Stock with Transaction Fee*
 > 45.4%
 
-* 78 Subsets
+* 78 Subsets*
 > 44.8%
 
-* 287 Find the Duplicate Number
+* 287 Find the Duplicate Number*
 > 44.3%
 
-* 62 Unique Paths
+* 62 Unique Paths*
 > 42.9%
 
-* 90 Subsets II
+* 90 Subsets II*
 > 38.4%
 
 * 15 3Sum* (有难度)
@@ -156,6 +159,12 @@ int x=[](){
 
 * 213 House Robber II
 > 34.7%
+
+* 64 Minimum Path Sum*
+> 42.8%
+
+* 63 Unique Paths II*
+> 32.6%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
