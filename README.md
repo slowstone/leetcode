@@ -166,6 +166,9 @@ int x=[](){
 * 63 Unique Paths II*
 > 32.6%
 
+* 120 Triangle
+> 36.4%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
