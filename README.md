@@ -60,7 +60,7 @@ int x=[](){
 * 665 Non-decreasing Array
 > 20.3%
 
-* 771 Jewels and Stones
+* 771 Jewels and Stones*
 > 82.1%
 
 * 290 Word Pattern*
@@ -166,8 +166,11 @@ int x=[](){
 * 63 Unique Paths II*
 > 32.6%
 
-* 120 Triangle
+* 120 Triangle*
 > 36.4%
+
+> 556 Next Greater Element III*
+> 29.1%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
