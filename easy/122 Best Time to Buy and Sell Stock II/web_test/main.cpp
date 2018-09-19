@@ -1,10 +1,4 @@
-#include <iostream>
-#include <sstream>
-#include <vector>
-#include <algorithm>
-using namespace std;
-
-class Solution1 {
+class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         int totalProfit=0;
@@ -17,7 +11,20 @@ public:
     }
 };
 
-class Solution2 {
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int res= 0 ;
+        int n = prices.size();
+        if (n <= 1) return 0;
+        for (int i = 1; i < prices.size(); ++i) {
+            res += ((prices[i] - prices[i-1]) > 0) ? (prices[i] - prices[i-1]) : 0;
+        }
+        return res;
+    }
+};
+
+class Solution {
 public:
     // decrease -> buy at last
     // increase -> sell at last
@@ -37,7 +44,7 @@ public:
     }
 };
 
-class Solution3 {
+class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         int m = prices.size();
@@ -55,42 +62,29 @@ public:
     }
 };
 
-void trimLeftTrailingSpaces(string &input) {
-    input.erase(input.begin(), find_if(input.begin(), input.end(), [](int ch) {
-        return !isspace(ch);
-    }));
-}
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int buyday_index = 0;
+        int sum = 0;
 
-void trimRightTrailingSpaces(string &input) {
-    input.erase(find_if(input.rbegin(), input.rend(), [](int ch) {
-        return !isspace(ch);
-    }).base(), input.end());
-}
+        for (int i = 1; i < prices.size(); i++) {
+            if (prices[i] < prices[buyday_index] && i - buyday_index == 1) {
+                buyday_index = i;
+                continue;
+            }
 
-vector<int> stringToIntegerVector(string input) {
-    vector<int> output;
-    trimLeftTrailingSpaces(input);
-    trimRightTrailingSpaces(input);
-    input = input.substr(1, input.length() - 2);
-    stringstream ss;
-    ss.str(input);
-    string item;
-    char delim = ',';
-    while (getline(ss, item, delim)) {
-        output.push_back(stoi(item));
+            if (prices[i] < prices[i - 1]) {
+                sum += prices[i - 1] - prices[buyday_index];
+                buyday_index = i;
+                continue;
+            }
+
+            if (i == prices.size() - 1) {
+                sum += prices[i] - prices[buyday_index];
+            }            
+        }
+
+        return sum;
     }
-    return output;
-}
-
-int main() {
-    string line;
-    while (getline(cin, line)) {
-        vector<int> prices = stringToIntegerVector(line);
-
-        int ret = Solution1().maxProfit(prices);
-
-        string out = to_string(ret);
-        cout << out << endl;
-    }
-    return 0;
-}
+};

@@ -78,6 +78,9 @@ int x=[](){
 * 303 Range Sum Query - Immutable* (没写出来)
 > 34.1%
 
+* 121 Best Time to Buy and Sell Stock*
+> 44.3%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -169,8 +172,11 @@ int x=[](){
 * 120 Triangle*
 > 36.4%
 
-> 556 Next Greater Element III*
+* 556 Next Greater Element III*
 > 29.1%
+
+* 309 Best Time to Buy and Sell Stock with Cooldown (未完成)
+> 42.7%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
