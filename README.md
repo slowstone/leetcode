@@ -178,6 +178,15 @@ int x=[](){
 * 309 Best Time to Buy and Sell Stock with Cooldown (未完成)
 > 42.7%
 
+* lintcode 515 Paint House
+> 38%
+
+* 91 Decode Ways*
+> 21.0%
+
+* 322 Coin Change*
+> 27.3%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
