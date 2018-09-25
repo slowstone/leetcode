@@ -81,6 +81,12 @@ int x=[](){
 * 121 Best Time to Buy and Sell Stock*
 > 44.3%
 
+* 674 Longest Continuous Increasing Subsequence
+> 42.9%
+
+* lintcode 397 Longest Continuous Increasing Subsequence
+> 31%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
