@@ -193,6 +193,18 @@ int x=[](){
 * 322 Coin Change*
 > 27.3%
 
+* 300 Longest Increasing Subsequence (未完成)
+> 39.3%
+
+* 673 Number of Longest Increasing Subsequence(未完成)
+> 32.0%
+
+* lintcode 553 Bomb Enemy
+> 34%
+
+* 338 Counting Bits*
+> 62.9%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
