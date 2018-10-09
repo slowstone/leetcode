@@ -217,3 +217,6 @@ int x=[](){
 
 * 41 First Missing Positive*
 > 26.7%
+
+* lintcode 516 Paint House II
+> 29%
