@@ -10,18 +10,27 @@
 class Solution {
 private:
     vector<int> subrob(TreeNode* root){
+        vector<int> res = vector<int>(2,0);
         if(root == NULL)
-            return vector<int>(2,0);
+            return res;
         vector<int> leftvec = subrob(root->left);
         vector<int> rightvec = subrob(root->right);
         int tmp = root->val + leftvec[1] + rightvec[1];
+        res[0] = tmp;
         tmp = leftvec[0] + rightvec[0];
-        vector<int>
+        res[1] = tmp;
+        if(res[0] < res[1])
+            res[0] = res[1];
+        return res;
     }
 public:
     int rob(TreeNode* root) {
         if(root == NULL)
             return 0;
-        return max(rob(root->left),rob(root->right)) + root->val;
+        vector<int> leftvec = subrob(root->left);
+        vector<int> rightvec = subrob(root->right);
+        int tmp = root->val + leftvec[1] + rightvec[1];
+        tmp = max((leftvec[0] + rightvec[0]),tmp);
+        return tmp;
     }
 };

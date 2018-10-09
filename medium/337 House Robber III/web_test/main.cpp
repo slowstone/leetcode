@@ -1,21 +1,25 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
 class Solution {
 public:
-    vector<int> countBits(int num) {
-        vector<int> res(num + 1, 0);
-        for (int i = 1; i <= num; ++i) {
-            res[i] = res[i & (i - 1)] + 1;
-        }
-        return res;
+    int rob(TreeNode* root) {
+        int l = 0, r = 0;
+        return rob(root, l, r);
     }
-};
-
-class Solution {
-public:
-    vector<int> countBits(int num) {
-        vector<int> res(num + 1, 0);
-        for (int i = 1; i <= num; ++i) {
-            res[i] = res[i>>1] + i%2;
-        }
-        return res;
+    
+    int rob(TreeNode* t, int &l, int &r){
+        if(!t)
+            return 0;
+        int ll = 0, lr = 0, rl = 0, rr = 0;
+        l = rob(t->left, ll, lr);
+        r = rob(t->right, rl, rr);
+        return max(t->val + ll + lr + rl + rr, l + r);
     }
 };
