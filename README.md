@@ -87,6 +87,9 @@ int x=[](){
 * lintcode 397 Longest Continuous Increasing Subsequence
 > 31%
 
+* 1 Two Sum
+> 38.9%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
