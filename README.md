@@ -214,6 +214,9 @@ int x=[](){
 * 2 Add Two Numbers
 > 29.2%
 
+* 3 Longest Substring Without Repeating Characters(未完成)
+> 25.1%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
@@ -232,3 +235,6 @@ int x=[](){
 
 * 123 Best Time to Buy and Sell Stock III*
 > 31.6%
+
+* 188 Best Time to Buy and Sell Stock IV*
+> 25.3%
