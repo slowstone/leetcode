@@ -211,6 +211,9 @@ int x=[](){
 * 337 House Robber III*
 > 45.9%
 
+* 2 Add Two Numbers
+> 29.2%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
@@ -226,3 +229,6 @@ int x=[](){
 
 * lintcode 516 Paint House II
 > 29%
+
+* 123 Best Time to Buy and Sell Stock III*
+> 31.6%
