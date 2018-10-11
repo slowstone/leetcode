@@ -196,7 +196,7 @@ int x=[](){
 * 322 Coin Change*
 > 27.3%
 
-* 300 Longest Increasing Subsequence (未完成)
+* 300 Longest Increasing Subsequence*
 > 39.3%
 
 * 673 Number of Longest Increasing Subsequence(未完成)
