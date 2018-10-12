@@ -184,7 +184,7 @@ int x=[](){
 * 556 Next Greater Element III*
 > 29.1%
 
-* 309 Best Time to Buy and Sell Stock with Cooldown (未完成)
+* 309 Best Time to Buy and Sell Stock with Cooldown*
 > 42.7%
 
 * lintcode 515 Paint House
