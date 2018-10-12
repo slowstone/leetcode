@@ -5,3 +5,10 @@
 >> Input: [1,2,3,0,2]
 >> Output: 3 
 >> Explanation: transactions = [buy, sell, cooldown, buy, sell]
+
+>* Eg
+```
+[1,2,3,0,2]
+[4,2,7,1,11]
+[6,1,6,4,3,0,2]
+```
