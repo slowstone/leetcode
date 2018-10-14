@@ -217,6 +217,12 @@ int x=[](){
 * 3 Longest Substring Without Repeating Characters(未完成)
 > 25.1%
 
+* 279 Perfect Squares*
+> 38.9%
+
+* 131 Palindrome Partitioning(未完成)
+> 37.7%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
@@ -241,3 +247,6 @@ int x=[](){
 
 * 354 Russian Doll Envelopes*
 > 32.8%
+
+* 132 Palindrome Partitioning II*
+> 25.8%
