@@ -250,3 +250,6 @@ int x=[](){
 
 * 132 Palindrome Partitioning II*
 > 25.8%
+
+* lintcode 437 Copy Books*
+> 31%
