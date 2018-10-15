@@ -37,8 +37,8 @@ public:
         dp[0] = true;
         for(auto a:A){
             for(int i = m;i >= 0;i--){
-                if(i+a > m)
-                    continue;
+                if(i < a)
+                    break;
                 dp[i] = dp[i] || dp[i-a];
             }
         }
