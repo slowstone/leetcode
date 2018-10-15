@@ -17,7 +17,7 @@ public:
             }
         }
         for(auto d:dp){
-            cout << d << " ";
+            // cout << d << " ";
             res = max(res,d);
         }
         return res;
@@ -39,15 +39,12 @@ public:
             for(int i = m;i >= 0;i--){
                 if(i+a > m)
                     continue;
-                if(dp[i])
-                    dp[i+a] = dp[i];
+                dp[i] = dp[i] || dp[i-a];
             }
         }
-            for(int i = m;i >= 0;i--){
-            cout << dp[i] << " ";
-            // if(dp[i])
-            //     return i;
+        for(int i = m;i >= 0;i--){
+            if(dp[i])
+                return i;
         }
-        return 3;
     }
 };
