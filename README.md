@@ -226,6 +226,9 @@ int x=[](){
 * lintcode 92 Backpack
 > 27%
 
+* 516 Longest Palindromic Subsequence*
+> 43.8%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
