@@ -1,31 +1,29 @@
 class Solution {
 public:
     string shortestPalindrome(string s) {
-        int left = 0;
-        int right = s.size()-1;
-        int step = 0;
-        while(left < right){
-            if(s[left] == s[right]){
-                left++;
-                right--;
-                step++;
+        int len = 0;
+        for(int i = 0;i < s.size();i++){
+            int left = i,right = i;
+            while(left >= 0 && right < s.size() && s[left] == s[right]){
+                if(left == 0)
+                    len = max(right-left+1,len);
+                left--;
+                right++;
             }
-            else{
-                int tmpright = right + step;
-                int tmpstep = 0;
-                for(;tmpstep < step;tmpstep++){
-                    if(s[tmpright] == s[right]){
-                        right--;
-                        tmpright--;
-                    }
-                    else
-                        break;
-                }
-                left -= (step-tmpstep);
-                step = tmpstep;
+            left = i;
+            right = i+1;
+            while(left >= 0 && right < s.size() && s[left] == s[right]){
+                if(left == 0)
+                    len = max(right-left+1,len);
+                left--;
+                right++;
             }
         }
-        string ss(s,right+step,s.size()-right+step);
-        return ss+s;
+        string res = s;
+        for(int i = len;i < s.size();i++){
+            res = s[i] + res;
+        }
+        // cout << len << endl;
+        return res;
     }
 };

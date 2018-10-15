@@ -220,8 +220,11 @@ int x=[](){
 * 279 Perfect Squares*
 > 38.9%
 
-* 131 Palindrome Partitioning(未完成)
+* 131 Palindrome Partitioning(未完成)(没写出来)
 > 37.7%
+
+* lintcode 92 Backpack
+> 27%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
