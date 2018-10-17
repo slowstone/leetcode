@@ -229,6 +229,15 @@ int x=[](){
 * 516 Longest Palindromic Subsequence*
 > 43.8%
 
+* lintcode 394 Coins in a Line
+> 44%
+
+* lintcode 395 Coins in a Line II
+> 34%
+
+* 486 Predict the Winner*
+> 45.8%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
@@ -259,3 +268,6 @@ int x=[](){
 
 * lintcode 437 Copy Books*
 > 31%
+
+* lintcode 396 Coins in a Line III
+> 37%
