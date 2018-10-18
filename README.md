@@ -238,6 +238,9 @@ int x=[](){
 * 486 Predict the Winner*
 > 45.8%
 
+* 162 Find Peak Element*
+> 39.9%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
@@ -271,3 +274,9 @@ int x=[](){
 
 * lintcode 396 Coins in a Line III
 > 37%
+
+* 87 Scramble String*
+> 30.4%
+
+* 312 Burst Balloons*
+> 44.7%
