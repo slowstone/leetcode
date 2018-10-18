@@ -1,5 +1,7 @@
 # leetcode  
 > 目前所完成的leetcode题目  
+> 还有部分lintcode题目  
+
 # Tips  
 >* 加速输入  
 ```
@@ -240,6 +242,9 @@ int x=[](){
 
 * 162 Find Peak Element*
 > 39.9%
+
+* lintcode 77 Longest Common Subsequence
+> 40%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
