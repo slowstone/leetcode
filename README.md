@@ -92,6 +92,9 @@ int x=[](){
 * 1 Two Sum
 > 38.9%
 
+* 521 Longest Uncommon Subsequence I
+> 55.7%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -285,3 +288,6 @@ int x=[](){
 
 * 312 Burst Balloons*
 > 44.7%
+
+* 97 Interleaving String*
+> 26.2%
