@@ -291,3 +291,6 @@ int x=[](){
 
 * 97 Interleaving String*
 > 26.2%
+
+* 72 Edit Distance*
+> 34.6%
