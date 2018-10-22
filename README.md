@@ -294,3 +294,6 @@ int x=[](){
 
 * 72 Edit Distance*
 > 34.6%
+
+* 115 Distinct Subsequences*
+> 33.4%
