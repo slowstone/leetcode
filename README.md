@@ -297,3 +297,6 @@ int x=[](){
 
 * 115 Distinct Subsequences*
 > 33.4%
+
+* 10 Regular Expression Matching*
+> 24.4%
