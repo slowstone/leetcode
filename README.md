@@ -249,6 +249,9 @@ int x=[](){
 * lintcode 77 Longest Common Subsequence
 > 40%
 
+* 474 Ones and Zeroes*
+> 38.7%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
@@ -303,6 +306,3 @@ int x=[](){
 
 * 44 Wildcard Matching*
 > 21.7%
-
-* 474 Ones and Zeroes*
-> 38.7%
