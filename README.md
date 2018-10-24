@@ -300,3 +300,9 @@ int x=[](){
 
 * 10 Regular Expression Matching*
 > 24.4%
+
+* 44 Wildcard Matching*
+> 21.7%
+
+* 474 Ones and Zeroes*
+> 38.7%
