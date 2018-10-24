@@ -252,6 +252,12 @@ int x=[](){
 * 474 Ones and Zeroes*
 > 38.7%
 
+* lintcode 91 Minimum Adjustment Cost
+> 32%
+
+* 377 Combination Sum IV*
+> 43.3%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
