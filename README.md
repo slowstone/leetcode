@@ -315,3 +315,6 @@ int x=[](){
 
 * 44 Wildcard Matching*
 > 21.7%
+
+* lintcode 89 k Sum
+> 27%
