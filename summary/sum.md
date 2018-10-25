@@ -15,7 +15,7 @@ return the count Given n distinct positive integers, integer k (k <= n) and a nu
 >2. return alll
 
 1. Solution to ksum-1 :
-```
+```C++
 class Solution {
 public:
     /**
@@ -88,7 +88,7 @@ int kSum(vector<int> A, int k, int target) {
 ```
 
 2. Solution to ksum-2 :
-```
+```C++
 class Solution {
 public:
     /**
@@ -125,7 +125,7 @@ public:
 
 ## Problem 39 
 Given a set of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T. The same repeated number may be chosen from C unlimited number of times.
-```
+```C++
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
@@ -152,7 +152,7 @@ public:
 
 ## Problem 40 
 Given a collection of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T. Each number in C may only be used once in the combination.
-```
+```C++
 class Solution {
 public:
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
@@ -184,7 +184,7 @@ public:
 Find all possible combinations of k numbers that add up to a number n, given that only numbers from 1 to 9 can be used and each combination should be a unique set of numbers.
 
 >> This problem is different from the 1 & 2, our choice is constrained to be [1,9], and our target is valid, then our bigest number is just sum from 1 to 9, our result is that number 1 to 9 can only be choosed for one time. All in all, this problem is a special case of the Combination Problem 2
-```
+```C++
 class Solution {
 public:
     vector<vector<int>> combinationSum3(int k, int n) {
@@ -212,7 +212,7 @@ public:
 Given an integer array with all positive numbers and no duplicates, find the number of possible combinations that add up to a positive integer target.
 
 >> This problem is just similar to the Combination Problem 1 , we only need to return the count but not all the possible result .<br>dp[i] : record the possible combination count to sum to target value of i
-```
+```C++
 class Solution {
 public:
     int combinationSum4(vector<int>& nums, int target) {
@@ -234,7 +234,7 @@ public:
 Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
 
 >> This problem is the almost same as the problem Combination sum 2, only with different ending conditions !
-```
+```C++
 class Solution {
 public:
     vector<vector<int> > combine(int n, int k) {
@@ -258,7 +258,7 @@ public:
 
 ## Problem 17 
 Letter Combination Given a digit string, return all possible letter combinations that the number could represent. A mapping of digit to letters (just like on the telephone buttons) is given below.
-```
+```C++
 class Solution {
 public:
     vector<string> letterCombinations(string digits) {
@@ -286,7 +286,7 @@ public:
 Write a function that takes an integer n and return all possible combinations of its factors. 
 
 >> Note: Each combination's factors must be sorted ascending, for example: The factors of 2 and 6 is [2, 6], not [6, 2]. You may assume that n is always positive.
-```
+```C++
 class Solution {
 public:
     vector<vector<int>> getFactors(int n) {
