@@ -1,7 +1,7 @@
 ## Written in front
 https://leetcode.com/problems/combination-sum-iv/discuss/85120/C++-template-for-ALL-Combination-Problem-Set<br>
-Firstly, the Combination Sum 1 & 4 are similar, and Combination Sum 2 & 3 are similar !!! Combination Sum 3 is the special case of Combination Sum 2, and the Combination Sum 4 return the count while Combination Sum return all the combination !
-k sum problem is a good extension for the combination sum problem, k-sum 1 is to return the count while k-sum 2 return all the possible results
+&emsp;Firstly, the Combination Sum 1 & 4 are similar, and Combination Sum 2 & 3 are similar !!! Combination Sum 3 is the special case of Combination Sum 2, and the Combination Sum 4 return the count while Combination Sum return all the combination!<br>
+&emsp;k sum problem is a good extension for the combination sum problem, k-sum 1 is to return the count while k-sum 2 return all the possible results
 ```
 1. DP: when solve the problem return the count
 
@@ -10,7 +10,7 @@ k sum problem is a good extension for the combination sum problem, k-sum 1 is to
 
 ## k Sum 1 & 2
 
-return the count Given n distinct positive integers, integer k (k <= n) and a number target. 
+&emsp;return the count Given n distinct positive integers, integer k (k <= n) and a number target. 
 >1. Find k numbers where sum is target. Calculate how many solutions there are? 
 >2. return alll
 
@@ -124,7 +124,7 @@ public:
 ```
 
 ## Problem 39 
-Given a set of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T. The same repeated number may be chosen from C unlimited number of times.
+&emsp;&emsp;Given a set of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T. The same repeated number may be chosen from C unlimited number of times.
 ```C++
 class Solution {
 public:
@@ -151,7 +151,7 @@ public:
 ```
 
 ## Problem 40 
-Given a collection of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T. Each number in C may only be used once in the combination.
+&emsp;Given a collection of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T. Each number in C may only be used once in the combination.
 ```C++
 class Solution {
 public:
@@ -181,9 +181,9 @@ public:
 ```
 
 ## Problem 216 
-Find all possible combinations of k numbers that add up to a number n, given that only numbers from 1 to 9 can be used and each combination should be a unique set of numbers.
+&emsp;Find all possible combinations of k numbers that add up to a number n, given that only numbers from 1 to 9 can be used and each combination should be a unique set of numbers.
 
->> This problem is different from the 1 & 2, our choice is constrained to be [1,9], and our target is valid, then our bigest number is just sum from 1 to 9, our result is that number 1 to 9 can only be choosed for one time. All in all, this problem is a special case of the Combination Problem 2
+> &emsp;This problem is different from the 1 & 2, our choice is constrained to be [1,9], and our target is valid, then our bigest number is just sum from 1 to 9, our result is that number 1 to 9 can only be choosed for one time. All in all, this problem is a special case of the Combination Problem 2
 ```C++
 class Solution {
 public:
@@ -209,9 +209,10 @@ public:
 ```
 
 ## Problem 377
-Given an integer array with all positive numbers and no duplicates, find the number of possible combinations that add up to a positive integer target.
+&emsp;Given an integer array with all positive numbers and no duplicates, find the number of possible combinations that add up to a positive integer target.
 
->> This problem is just similar to the Combination Problem 1 , we only need to return the count but not all the possible result .<br>dp[i] : record the possible combination count to sum to target value of i
+> &emsp;This problem is just similar to the Combination Problem 1 , we only need to return the count but not all the possible result .<br>
+> &emsp;dp[i] : record the possible combination count to sum to target value of i
 ```C++
 class Solution {
 public:
@@ -231,9 +232,9 @@ public:
 ```
 
 ## Problem 77
-Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
+&emsp;Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
 
->> This problem is the almost same as the problem Combination sum 2, only with different ending conditions !
+> &emsp;This problem is the almost same as the problem Combination sum 2, only with different ending conditions !
 ```C++
 class Solution {
 public:
@@ -257,7 +258,7 @@ public:
 ```
 
 ## Problem 17 
-Letter Combination Given a digit string, return all possible letter combinations that the number could represent. A mapping of digit to letters (just like on the telephone buttons) is given below.
+&emsp;Letter Combination Given a digit string, return all possible letter combinations that the number could represent. A mapping of digit to letters (just like on the telephone buttons) is given below.
 ```C++
 class Solution {
 public:
@@ -283,9 +284,9 @@ public:
 ```
 
 ## Problem 254 
-Write a function that takes an integer n and return all possible combinations of its factors. 
+&emsp;Write a function that takes an integer n and return all possible combinations of its factors. 
 
->> Note: Each combination's factors must be sorted ascending, for example: The factors of 2 and 6 is [2, 6], not [6, 2]. You may assume that n is always positive.
+> &emsp;Note: Each combination's factors must be sorted ascending, for example: The factors of 2 and 6 is [2, 6], not [6, 2]. You may assume that n is always positive.
 ```C++
 class Solution {
 public:
