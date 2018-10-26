@@ -43,3 +43,33 @@ public:
         return dp.size()-1;
     }
 };
+
+class Solution {
+public:
+    int lengthOfLIS(vector<int>& nums) {
+        vector<int> dp{INT_MIN};
+        for(int i = 0;i <nums.size();i++){
+            int res = 0,left = 0,right = dp.size()-1;
+            while(left <= right){
+                int mid = (left + right)/2;
+                // cout << i << " " << left <<" "<< mid <<" "<< right << endl;
+                if(dp[mid] < nums[i]){
+                    res = mid;
+                    left = mid+1;
+                }
+                else if(dp[mid] > nums[i])
+                    right = mid-1;
+                else
+                    break;
+            }
+            if(res+1 == dp.size())
+                dp.push_back(nums[i]);
+            else
+                dp[res+1] = min(nums[i],dp[res+1]);
+            // for(auto d:dp)
+            //     cout << d << " ";
+            // cout << endl;
+        }
+        return dp.size()-1;
+    }
+};
