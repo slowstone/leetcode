@@ -261,6 +261,9 @@ int x=[](){
 * 377 Combination Sum IV*
 > 43.3%
 
+* lintcode 640 One Edit Distance
+> 31%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
