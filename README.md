@@ -264,6 +264,9 @@ int x=[](){
 * lintcode 640 One Edit Distance
 > 31%
 
+* 221 Maximal Square*
+> 31.4%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
@@ -321,3 +324,6 @@ int x=[](){
 
 * lintcode 89 k Sum
 > 27%
+
+* 403 Frog Jump*
+> 33.9%
