@@ -5,5 +5,5 @@
 >> Using DP or DFS
 
 >* strstr.md
->> lintcode128
+>> 28, lintcode 594
 >> Using Brute-Force-and-KMP

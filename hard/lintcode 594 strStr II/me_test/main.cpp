@@ -16,7 +16,11 @@ private:
         return true;
     }
 public:
-    int strStr(string haystack, string needle) {
+    int strStr2(const char* source, const char* target) {
+        if(source == NULL) return -1;
+        if(target == NULL) return -1;
+        string haystack(source);
+        string needle(target);
         int n = haystack.size();
         int m = needle.size();
         if(m < 1) return 0;

@@ -336,3 +336,6 @@ int x=[](){
 
 * 403 Frog Jump*
 > 33.9%
+
+* lintcode 594 strStr II
+> 26%
