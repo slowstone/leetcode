@@ -264,6 +264,9 @@ int x=[](){
 * lintcode 640 One Edit Distance
 > 31%
 
+* lintcode 623 K Edit Distance(未完成)
+> 31%
+
 * 221 Maximal Square*
 > 31.4%
 
