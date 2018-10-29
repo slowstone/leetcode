@@ -98,6 +98,12 @@ int x=[](){
 * 521 Longest Uncommon Subsequence I
 > 55.7%
 
+* lintcode 128 Hash Function
+> 21%
+
+* 28 Implement strStr()*
+> 30.2%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
