@@ -107,6 +107,9 @@ int x=[](){
 * 35 Search Insert Position
 > 40.0%
 
+* 278 First Bad Version
+> 27.5%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -284,6 +287,9 @@ int x=[](){
 
 * 74 Search a 2D Matrix*
 > 34.4%
+
+* 34 Find First and Last Position of Element in Sorted Array*
+> 32.2%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
