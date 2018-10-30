@@ -104,6 +104,9 @@ int x=[](){
 * 28 Implement strStr()*
 > 30.2%
 
+* 35 Search Insert Position
+> 40.0%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -275,6 +278,12 @@ int x=[](){
 
 * 221 Maximal Square*
 > 31.4%
+
+* 29 Divide Two Integers(未完成)
+> 15.7%
+
+* 74 Search a 2D Matrix*
+> 34.4%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
