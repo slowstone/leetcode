@@ -19,7 +19,6 @@ public:
     }
 };
 
-// Forward declaration of isBadVersion API.
 bool isBadVersion(int version);
 
 class Solution {
@@ -37,7 +36,6 @@ public:
     }
 };
 
-// Forward declaration of isBadVersion API.
 bool isBadVersion(int version);
 
 class Solution {

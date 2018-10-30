@@ -109,7 +109,7 @@ int x=[](){
 
 * 278 First Bad Version
 > 27.5%
-
+ 
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
