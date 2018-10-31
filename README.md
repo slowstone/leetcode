@@ -303,6 +303,9 @@ int x=[](){
 * lintcode 585 Maximum Number in Mountain Sequence
 > 49%
 
+* 33 Search in Rotated Sorted Array*
+> 32.2%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
