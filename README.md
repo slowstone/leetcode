@@ -109,7 +109,10 @@ int x=[](){
 
 * 278 First Bad Version
 > 27.5%
- 
+
+* 852 Peak Index in a Mountain Array
+> 67.1%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -290,6 +293,15 @@ int x=[](){
 
 * 34 Find First and Last Position of Element in Sorted Array*
 > 32.2%
+
+* lintcode 447 Search in a Big Sorted Array
+> 加锁题，答案参考网上
+
+* 153 Find Minimum in Rotated Sorted Array*
+> 41.8%
+
+* lintcode 585 Maximum Number in Mountain Sequence
+> 49%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
