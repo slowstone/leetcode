@@ -113,6 +113,9 @@ int x=[](){
 * 852 Peak Index in a Mountain Array
 > 67.1%
 
+* lintcode 39 Recover Rotated Sorted Array
+> 29%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
