@@ -306,6 +306,9 @@ int x=[](){
 * 33 Search in Rotated Sorted Array*
 > 32.2%
 
+* 658 Find K Closest Elements*
+> 35.2%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
