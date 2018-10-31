@@ -378,3 +378,6 @@ int x=[](){
 
 * lintcode 594 strStr II
 > 26%
+
+* lintcode 600 Smallest Rectangle Enclosing Black Pixels(未完成)
+> 28% 
