@@ -122,6 +122,9 @@ int x=[](){
 * 21 Merge Two Sorted Lists
 > 43.7%
 
+* 112 Path Sum
+> 36.1%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -320,6 +323,9 @@ int x=[](){
 
 * 240 Search a 2D Matrix II
 > 39.5%
+
+* 81 Search in Rotated Sorted Array II*
+> 32.4%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
