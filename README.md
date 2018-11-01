@@ -119,6 +119,9 @@ int x=[](){
 * 189 Rotate Array
 > 27.3%
 
+* 21 Merge Two Sorted Lists
+> 43.7%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -314,6 +317,9 @@ int x=[](){
 
 * 658 Find K Closest Elements*
 > 35.2%
+
+* 240 Search a 2D Matrix II
+> 39.5%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
