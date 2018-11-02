@@ -125,6 +125,9 @@ int x=[](){
 * 112 Path Sum
 > 36.1%
 
+* 437 Path Sum III
+> 40.7%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -326,6 +329,9 @@ int x=[](){
 
 * 81 Search in Rotated Sorted Array II*
 > 32.4%
+
+* 113 Path Sum II*
+> 37.9%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
