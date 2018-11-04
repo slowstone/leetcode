@@ -333,6 +333,12 @@ int x=[](){
 * 113 Path Sum II*
 > 37.9%
 
+* 94 Binary Tree Inorder Traversal*
+> 53.0%
+
+* 144 Binary Tree Preorder Traversal
+> 48.9%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
@@ -399,3 +405,9 @@ int x=[](){
 
 * lintcode 600 Smallest Rectangle Enclosing Black Pixels(未完成)
 > 28% 
+
+* 154 Find Minimum in Rotated Sorted Array II*
+> 38.5%
+
+* 145 Binary Tree Postorder Traversal*
+> 45.1%
