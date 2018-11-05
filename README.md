@@ -131,6 +131,18 @@ int x=[](){
 * 100 Same Tree
 > 48.6%
 
+* 111 Minimum Depth of Binary Tree
+> 34.3%
+
+* 110 Balanced Binary Tree
+> 39.5%
+
+* 107 Binary Tree Level Order Traversal II
+> 44.2%
+
+* 104 Maximum Depth of Binary Tree
+> 57.5%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -341,6 +353,12 @@ int x=[](){
 
 * 144 Binary Tree Preorder Traversal
 > 48.9%
+
+* 102 Binary Tree Level Order Traversal
+> 45.3%
+
+* 103 Binary Tree Zigzag Level Order Traversal
+> 38.9%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
