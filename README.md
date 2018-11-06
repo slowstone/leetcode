@@ -143,6 +143,9 @@ int x=[](){
 * 104 Maximum Depth of Binary Tree
 > 57.5%
 
+* 257 Binary Tree Paths*
+> 43.6%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
