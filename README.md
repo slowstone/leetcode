@@ -146,6 +146,9 @@ int x=[](){
 * 257 Binary Tree Paths*
 > 43.6%
 
+* lintcode 596 Minimum Subtree
+> 37%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
