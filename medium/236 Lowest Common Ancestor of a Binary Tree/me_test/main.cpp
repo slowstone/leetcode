@@ -66,3 +66,31 @@ public:
         return htmp->ori;
     }
 };
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if(root == NULL) return NULL;
+        TreeNode *lr = lowestCommonAncestor(root->left,p,q);
+        TreeNode *rr = lowestCommonAncestor(root->right,p,q);
+        // cout << (lr == NULL ? 0 :lr->val) << " " << (rr ==NULL ? 0 : rr->val) << endl;
+        if(lr != NULL && lr != p && lr != q) return lr;
+        if(rr != NULL && rr != p && rr != q) return rr;
+        if(root == p || root == q){
+            return root;
+        }
+        if((lr == q && rr == p) || (lr == p && rr == q)){
+            return root;
+        }
+        return lr == NULL ? rr : lr;
+    }
+};

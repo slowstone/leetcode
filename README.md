@@ -149,6 +149,9 @@ int x=[](){
 * lintcode 596 Minimum Subtree
 > 37%
 
+* lintcode 597 Subtree with Maximum Average
+> 27%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
