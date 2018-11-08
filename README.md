@@ -390,6 +390,15 @@ int x=[](){
 * lintcode 448 Inorder Successor in BST
 > 36%
 
+* lintcode 11 Search Range in Binary Search Tree
+> 38%
+
+* 701 Insert into a Binary Search Tree
+> 67.8%
+
+* 450 Delete Node in a BST
+> 38.1%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
