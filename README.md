@@ -375,6 +375,21 @@ int x=[](){
 * lintcode 578 Lowest Common Ancestor III
 > 27%
 
+* 98 Validate Binary Search Tree*
+> 24.6%
+
+* lintcode 378 Convert Binary Search Tree to Doubly Linked List
+> 32%
+
+* 114 Flatten Binary Tree to Linked List*
+> 39.3%
+
+* 173 Binary Search Tree Iterator*
+> 45.1%
+
+* lintcode 448 Inorder Successor in BST
+> 36%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
