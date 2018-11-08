@@ -152,6 +152,9 @@ int x=[](){
 * lintcode 597 Subtree with Maximum Average
 > 27%
 
+* lintcode 474 Lowest Common Ancestor II
+> 39%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -368,6 +371,9 @@ int x=[](){
 
 * 103 Binary Tree Zigzag Level Order Traversal
 > 38.9%
+
+* lintcode 578 Lowest Common Ancestor III
+> 27%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
