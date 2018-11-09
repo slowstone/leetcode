@@ -52,3 +52,32 @@ public:
         return res;
     }
 };
+
+class Solution {
+public:
+    vector<vector<int>> levelOrder(TreeNode* root) {
+        if(root == NULL) return {};
+        vector<queue<TreeNode*>> stvec(2,queue<TreeNode*>());
+        vector<vector<int>> res;
+        int cur = 0,pre = 1;
+        stvec[cur].push(root);
+        int h = 0;
+        while(stvec[cur].size() != 0){
+            if(res.size() == h)
+                res.push_back({});
+            TreeNode *ttmp = stvec[cur].front();
+            stvec[cur].pop();
+            res[h].push_back(ttmp->val);
+            if(ttmp->left != NULL)
+                stvec[pre].push(ttmp->left);
+            if(ttmp->right != NULL)
+                stvec[pre].push(ttmp->right);
+            if(stvec[cur].size() == 0){
+                pre = cur;
+                cur = 1-cur;
+                h++;
+            }
+        }
+        return res;
+    }
+};

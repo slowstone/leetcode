@@ -109,3 +109,38 @@ public:
         return res;
     }
 };
+
+class Solution {
+private:
+    int height(TreeNode * root){
+        if(root == NULL) return 0;
+        return max(height(root->left),height(root->right)) + 1;
+    }
+public:
+    vector<vector<int>> levelOrderBottom(TreeNode* root) {
+        if(root == NULL) return {};
+        vector<queue<TreeNode*>> stvec(2,queue<TreeNode*>());
+        int h = height(root);
+        vector<vector<int>> res(h,vector<int>());
+        int cur = 0,pre = 1;
+        h--;
+        stvec[cur].push(root);
+        while(stvec[cur].size() != 0){
+            if(res.size() == h)
+                res.push_back({});
+            TreeNode *ttmp = stvec[cur].front();
+            stvec[cur].pop();
+            res[h].push_back(ttmp->val);
+            if(ttmp->left != NULL)
+                stvec[pre].push(ttmp->left);
+            if(ttmp->right != NULL)
+                stvec[pre].push(ttmp->right);
+            if(stvec[cur].size() == 0){
+                pre = cur;
+                cur = 1-cur;
+                h--;
+            }
+        }
+        return res;
+    }
+};
