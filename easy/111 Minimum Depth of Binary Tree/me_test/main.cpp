@@ -18,3 +18,28 @@ public:
         return res;
     }
 };
+
+class Solution {
+public:
+    int minDepth(TreeNode* root) {
+        if(root == NULL) return 0;
+        queue<TreeNode*> tq;
+       	tq.push(root);
+       	int height = 0;
+       	while(!tq.empty()){
+       		int n = tq.size();
+       		height++;
+       		while(n != 0){
+       			TreeNode *tmp = tq.front();
+       			tq.pop();
+       			if(tmp->left != NULL)
+       				tq.push(tmp->left);
+       			if(tmp->right != NULL)
+       				tq.push(tmp->right);
+       			if(tmp->left == NULL && tmp->right == NULL)
+       				return height;
+       			n--;
+       		}
+       	}
+    }
+};
