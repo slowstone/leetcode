@@ -471,3 +471,6 @@ int x=[](){
 
 * 145 Binary Tree Postorder Traversal*
 > 45.1%
+
+* 297 Serialize and Deserialize Binary Tree
+> 37.5%
