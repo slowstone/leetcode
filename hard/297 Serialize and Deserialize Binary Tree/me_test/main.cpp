@@ -22,7 +22,7 @@ public:
             tq.pop();
             string stmp;
             if(tmp == NULL)
-                stmp = "null";
+                stmp = "#";
             else
                 stmp = to_string(tmp->val);
             if(res == "[")
@@ -51,7 +51,7 @@ public:
             if(s == '[')
                 continue;
             else if(s == ',' || s == ']'){
-                if(stmp == "null"){
+                if(stmp == "#"){
                     if(leftorright == 2){
                         cur = tq.front();
                         tq.pop();
