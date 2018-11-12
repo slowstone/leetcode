@@ -399,6 +399,12 @@ int x=[](){
 * 450 Delete Node in a BST
 > 38.1%
 
+* 449 Serialize and Deserialize BST
+> 44.1%
+
+* lintcode 178 Graph Valid Tree
+> 29%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
