@@ -417,6 +417,12 @@ int x=[](){
 * lintcode 127 Topological Sorting
 > 34%
 
+* 207 Course Schedule*
+> 35.4%
+
+* 210 Course Schedule II*
+> 32.2%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
