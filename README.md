@@ -158,6 +158,9 @@ int x=[](){
 * 118 Pascal's Triangle
 > 42.8%
 
+* 119 Pascal's Triangle II
+> 40.5%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
