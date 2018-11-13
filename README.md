@@ -155,6 +155,9 @@ int x=[](){
 * lintcode 474 Lowest Common Ancestor II
 > 39%
 
+* 118 Pascal's Triangle
+> 42.8%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -404,6 +407,9 @@ int x=[](){
 
 * lintcode 178 Graph Valid Tree
 > 29%
+
+* 133 Clone Graph*
+> 25.1%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
