@@ -39,3 +39,46 @@ public:
         return res;
     }
 };
+
+class Solution {
+private:
+    unordered_set<UndirectedGraphNode *> getnodes(UndirectedGraphNode *node){
+        unordered_set<UndirectedGraphNode *> res;
+        queue<UndirectedGraphNode *> qu;
+        qu.push(node);
+        res.insert(node);
+        while(!qu.empty()){
+            UndirectedGraphNode *cur = qu.front();qu.pop();
+            for(auto n:cur->neighbors){
+                if(res.find(n) == res.end()){
+                    res.insert(n);
+                    qu.push(n);
+                }
+            }
+        }
+        return res;
+    }
+public:
+    UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node) {
+        if(node == NULL) return NULL;
+        
+        //data struct
+        map<UndirectedGraphNode *,UndirectedGraphNode *> nodetonode;
+
+        //copy root node
+        nodetonode[node] = new UndirectedGraphNode(node->label);
+
+        //get nodes and copy nodes
+        unordered_set<UndirectedGraphNode *> nodes = getnodes(node);
+        for(auto n:nodes)
+            nodetonode[n] = new UndirectedGraphNode(n->label);
+
+
+        //copy edges
+        for(auto n:nodes)
+            for(auto e:n->neighbors)
+                nodetonode[n]->neighbors.push_back(nodetonode[e]);
+
+        return nodetonode[node];
+    }
+};
