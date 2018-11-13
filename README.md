@@ -414,6 +414,9 @@ int x=[](){
 * 133 Clone Graph*
 > 25.1%
 
+* lintcode 127 Topological Sorting
+> 34%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
