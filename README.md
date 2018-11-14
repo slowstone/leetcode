@@ -423,6 +423,9 @@ int x=[](){
 * 210 Course Schedule II*
 > 32.2%
 
+* lintcode 605 Sequence Reconstruction
+> 21%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
