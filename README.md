@@ -426,6 +426,12 @@ int x=[](){
 * lintcode 605 Sequence Reconstruction
 > 21%
 
+* 200 Number of Islands*
+> 38.6%
+
+* lintcode 434 Number of Islands II(未完成)
+> 20%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
