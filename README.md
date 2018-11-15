@@ -161,6 +161,9 @@ int x=[](){
 * 119 Pascal's Triangle II
 > 40.5%
 
+* 53 Maximum Subarray
+> 41.7%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -270,7 +273,7 @@ int x=[](){
 * 300 Longest Increasing Subsequence*
 > 39.3%
 
-* 673 Number of Longest Increasing Subsequence(未完成)
+* 673 Number of Longest Increasing Subsequence*
 > 32.0%
 
 * lintcode 553 Bomb Enemy
