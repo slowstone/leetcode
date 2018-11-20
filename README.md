@@ -164,6 +164,9 @@ int x=[](){
 * 53 Maximum Subarray
 > 41.7%
 
+* 67 Add Binary
+> 36.5%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
