@@ -513,3 +513,6 @@ int x=[](){
 
 * 297 Serialize and Deserialize Binary Tree*
 > 37.5%
+
+* lintcode 573 Build Post Office II
+> 28%
