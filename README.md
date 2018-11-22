@@ -438,6 +438,21 @@ int x=[](){
 * lintcode 434 Number of Islands II(未完成)
 > 20%
 
+* lintcode 611 Knight Shortest Path
+> 26%
+
+* 147 Insertion Sort List
+> 35.5%
+
+* 75 Sort Colors
+> 40.4%
+
+* 215 Kth Largest Element in an Array
+> 43.9%
+
+* 148 Sort List(未完成)
+> 32.5%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
