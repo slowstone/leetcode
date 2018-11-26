@@ -167,6 +167,9 @@ int x=[](){
 * 67 Add Binary
 > 36.5%
 
+* 14 Longest Common Prefix
+> 32.3%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
