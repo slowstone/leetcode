@@ -170,6 +170,12 @@ int x=[](){
 * 14 Longest Common Prefix
 > 32.3%
 
+* 101 Symmetric Tree
+> 42.8%
+
+* 232 Implement Queue using Stacks
+> 42.2%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -455,6 +461,9 @@ int x=[](){
 
 * 148 Sort List(未完成)
 > 32.5%
+
+* 105 Construct Binary Tree from Preorder and Inorder Traversal*
+> 39.6%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
