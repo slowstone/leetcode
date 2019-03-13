@@ -300,8 +300,8 @@ int x=[](){
 * 2 Add Two Numbers
 > 29.2%
 
-* 3 Longest Substring Without Repeating Characters(未完成)
-> 25.1%
+* 3 Longest Substring Without Repeating Characters
+> 28.0%
 
 * 279 Perfect Squares*
 > 38.9%
@@ -464,6 +464,9 @@ int x=[](){
 
 * 105 Construct Binary Tree from Preorder and Inorder Traversal*
 > 39.6%
+
+* 19 Remove Nth Node From End of List
+> 34.0%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
