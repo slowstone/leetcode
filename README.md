@@ -468,6 +468,9 @@ int x=[](){
 * 19 Remove Nth Node From End of List
 > 34.0%
 
+* 96 Unique Binary Search Trees
+> 45.3%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
