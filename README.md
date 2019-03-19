@@ -471,6 +471,9 @@ int x=[](){
 * 96 Unique Binary Search Trees
 > 45.3%
 
+* 5 Longest Palindromic Substring
+> 26.8%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
