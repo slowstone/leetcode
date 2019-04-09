@@ -474,6 +474,12 @@ int x=[](){
 * 5 Longest Palindromic Substring
 > 26.8%
 
+* 39 Combination Sum
+> 47.5%
+
+* 40 Combination Sum II
+> 40.8%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
