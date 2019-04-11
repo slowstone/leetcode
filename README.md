@@ -182,6 +182,9 @@ int x=[](){
 * 7 Reverse Integer
 > 25.2%
 
+* 9 Palindrome Number
+> 42.7%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -494,6 +497,12 @@ int x=[](){
 
 * 8 String to Integer (atoi)
 > 14.6%
+
+* 12 Integer to Roman
+> 50.4%
+
+* 6 ZigZag Conversion
+> 31.2%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
