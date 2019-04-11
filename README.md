@@ -176,6 +176,12 @@ int x=[](){
 * 232 Implement Queue using Stacks
 > 42.2%
 
+* 13 Roman to Integer
+> 52.0%
+
+* 7 Reverse Integer
+> 25.2%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -306,7 +312,7 @@ int x=[](){
 * 279 Perfect Squares*
 > 38.9%
 
-* 131 Palindrome Partitioning(未完成)(没写出来)
+* 131 Palindrome Partitioning*
 > 37.7%
 
 * lintcode 92 Backpack
@@ -479,6 +485,15 @@ int x=[](){
 
 * 40 Combination Sum II
 > 40.8%
+
+* 77 Combinations
+> 46.8%
+
+* 36 Valid Sudoku
+> 42.4%
+
+* 8 String to Integer (atoi)
+> 14.6%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
