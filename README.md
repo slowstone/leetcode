@@ -176,6 +176,9 @@ int x=[](){
 * 232 Implement Queue using Stacks
 > 42.2%
 
+* 38 Count and Say
+> 40.0%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
