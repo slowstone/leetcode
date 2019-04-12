@@ -513,6 +513,12 @@ int x=[](){
 * 17 Letter Combinations of a Phone Number
 > 41.0%
 
+* 24 Swap Nodes in Pairs
+> 43.9%
+
+* 29 Divide Two Integers
+> 16.1%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
