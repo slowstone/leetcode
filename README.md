@@ -176,6 +176,9 @@ int x=[](){
 * 232 Implement Queue using Stacks
 > 42.2%
 
+* 38 Count and Say
+> 40.0%
+
 * 13 Roman to Integer
 > 52.0%
 
