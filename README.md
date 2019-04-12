@@ -185,6 +185,9 @@ int x=[](){
 * 9 Palindrome Number
 > 42.7%
 
+* 20 Valid Parentheses
+> 36.2%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -503,6 +506,9 @@ int x=[](){
 
 * 6 ZigZag Conversion
 > 31.2%
+
+* 17 Letter Combinations of a Phone Number
+> 41.0%
 
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
