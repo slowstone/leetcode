@@ -191,6 +191,9 @@ int x=[](){
 * 20 Valid Parentheses
 > 36.2%
 
+* 263 Ugly Number
+> 40.5%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
@@ -519,6 +522,12 @@ int x=[](){
 * 29 Divide Two Integers
 > 16.1%
 
+* 264 Ugly Number II
+> 36.0%
+
+* 313 Super Ugly Number*
+> 40.9%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
@@ -597,3 +606,6 @@ int x=[](){
 
 * lintcode 573 Build Post Office II
 > 28%
+
+* 23 Merge k Sorted Lists*
+> 33.8%
