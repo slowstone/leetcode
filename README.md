@@ -528,6 +528,12 @@ int x=[](){
 * 313 Super Ugly Number*
 > 40.9%
 
+* 46 Permutations
+> 54.4%
+
+* 47 Permutations II
+> 39.9%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
