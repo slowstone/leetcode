@@ -194,6 +194,12 @@ int x=[](){
 * 263 Ugly Number
 > 40.5%
 
+* 66 Plus One
+> 41.0%
+
+* 58 Length of Last Word
+> 32.2%
+
 ## medium 完成情况
 * 442 Find All Duplicates in an Array*
 > 58.6%
