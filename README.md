@@ -540,6 +540,12 @@ int x=[](){
 * 47 Permutations II
 > 39.9%
 
+* 56 Merge Intervals*
+> 35.4%
+
+* 71 Simplify Path*
+> 28.5%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
