@@ -627,3 +627,6 @@ int x=[](){
 
 * 23 Merge k Sorted Lists*
 > 33.8%
+
+* 329 Longest Increasing Path in a Matrix
+> 39.7%
