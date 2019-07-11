@@ -546,6 +546,12 @@ int x=[](){
 * 71 Simplify Path*
 > 28.5%
 
+* 22 Generate Parentheses*
+> 55.6%
+
+* 48 Rotate Image*
+> 49.3%
+
 ## hard 完成情况  
 * 768 Max Chunks To Make Sorted II*
 > 43.1%
