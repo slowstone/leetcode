@@ -636,3 +636,6 @@ int x=[](){
 
 * 329 Longest Increasing Path in a Matrix
 > 39.7%
+
+>* 32 Longest Valid Parentheses
+> 26.0%
